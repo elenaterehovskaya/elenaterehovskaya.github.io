@@ -1,6 +1,7 @@
 # elenaterehovskaya.github.io
 
 <h2>Личный проект «Нёрдс»</h2>
+<a href="https://elenaterehovskaya.github.io/nerds" target="_blank">
 <p>Главная страница плюс страница «Магазина».</p>
 <p>HTML Academy. Курс «Базовый HTML и CSS #19»</p>
 
