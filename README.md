@@ -8,7 +8,7 @@ HTML Academy. Курс «Базовый HTML и CSS #19»
 
 
 <h2>Resto</h2>
-Главная страница для ресторана
+Главная страница для ресторана <a href="https://elenaterehovskaya.github.io/resto" target="_blank">https://elenaterehovskaya.github.io/resto</a>
 
 Полезная рассылка HTML Academy №45. Макеты для тренировки
 
