@@ -1,7 +1,9 @@
 # Елена Тереховская 
 
 ### Личный проект «Нёрдс»
-#### Главная страница + страница «Магазина» <a href="https://elenaterehovskaya.github.io/nerds" target="_blank">https://elenaterehovskaya.github.io/nerds</a>
+#### Главная страница <a href="https://elenaterehovskaya.github.io/nerds" target="_blank">https://elenaterehovskaya.github.io/nerds</a>
+
+#### страница «Магазина» <a href="https://elenaterehovskaya.github.io/nerds/catalog.html" target="_blank">https://elenaterehovskaya.github.io/nerds/catalog.html</a>
 
 HTML Academy. Курс «Базовый HTML и CSS #19»
 
@@ -13,3 +15,8 @@ HTML Academy. Курс «Базовый HTML и CSS #19»
 Полезная рассылка HTML Academy №45. Макеты для тренировки
 
 ---
+
+### Soulvibes 
+#### Сайт концертной площадки
+
+Полезная рассылка HTML Academy №46. Макеты для тренировки

@@ -74,7 +74,6 @@ img {
 
 .page-header {
   display: flex;
-  justify-content: space-between;
   width: 1100px;
   height: 110px;
   margin: 0 auto;
@@ -92,14 +91,15 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 488px;
   margin: 0;
+  margin-left: auto;
   padding: 0;
   
   list-style: none;
 }
 
 .page-navigation a {
+  margin-left: 50px;
   color: #3b3b3b;
 }
 
@@ -113,6 +113,11 @@ img {
   border-bottom: 1px solid #f34949;
 }
 
+.page-navigation a:active {
+  color: rgba(59, 59, 59, 0.6);
+  
+  border-bottom: inherit;
+}
 
 .billboard-resto {
   max-width: 1500px;
