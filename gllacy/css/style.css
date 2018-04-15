@@ -695,6 +695,10 @@ input[type="radio"].visually-hidden {
   color: #323232;
 }
 
+.user-nav__order-button {
+  outline: none;
+}
+
 .user-nav__contacts {
   margin-left: auto;
 }
@@ -873,6 +877,12 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog {
+  width: 1146px;
+  margin: 0 auto;
+  padding: 0 27px;
+}
+
+.catalog__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -881,9 +891,6 @@ input[type="radio"].visually-hidden {
   justify-content: space-between;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  width: 1146px;
-  margin: 0 auto;
-  padding: 0 27px;
 }
 
 .catalog__item {
@@ -896,10 +903,10 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog__item:hover {
-  z-index: 10;
+  z-index: 20;
 }
 
-.catalog__item:hover::before {
+.catalog__item:hover::after {
   content: "";
   position: absolute;
   top: -5px;
@@ -915,22 +922,7 @@ input[type="radio"].visually-hidden {
   opacity: 0.2;
 }
 
-.catalog__item:hover .catalog__button {
-  opacity: 1;
-}
-
-.catalog__image {
-  position: relative;
-
-  display: block;
-  width: 267px;
-  height: 267px;
-  margin-bottom: 12px;
-
-  border-radius: 50%;
-}
-
-.catalog__link--hits::before {
+.catalog__item--hits::before {
   content: "";
   position: absolute;
   top: 0;
@@ -943,16 +935,30 @@ input[type="radio"].visually-hidden {
   background: url("../img/hit.svg") no-repeat 0 0;
 }
 
+.catalog__image {
+  position: relative;
+  z-index: 10;
+
+  display: block;
+  width: 267px;
+  height: 267px;
+  margin-bottom: 12px;
+
+  border-radius: 50%;
+}
+
 .catalog__price {
   position: absolute;
   top: 210px;
   left: 0;
+  z-index: 20;
 
   margin: 0;
 
   font-weight: 700;
   font-size: 45px;
   line-height: 45px;
+  letter-spacing: -1px;
   text-shadow: 1px 1px 3px rgba(49, 50, 53, 0.5);
 }
 
@@ -961,6 +967,9 @@ input[type="radio"].visually-hidden {
 }
 
 .catalog__name {
+  position: relative;
+  z-index: 10;
+
   color: #ffffff;
 
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -970,13 +979,18 @@ input[type="radio"].visually-hidden {
   position: absolute;
   top: 335px;
   left: 50%;
+  z-index: 20;
 
   width: 200px;
   margin-left: -100px;
-  padding: 10px 0;
+  padding: 8px 0;
 
-  border-radius: 25px;
+  border-radius: 20px;
   opacity: 0;
+}
+
+.catalog__item:hover .catalog__button {
+  opacity: 1;
 }
 
 .about-us {
@@ -1643,7 +1657,9 @@ input[type="radio"].visually-hidden {
 }
 
 .pagination__link--prev:hover,
-.pagination__link--next:hover {
+.pagination__link--prev:focus,
+.pagination__link--next:hover,
+.pagination__link--next:focus {
   background-color: transparent;
 }
 
