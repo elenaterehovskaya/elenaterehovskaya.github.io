@@ -118,7 +118,8 @@ img {
   height: 570px;
   margin: 0 auto;
 
-  background: #3f3f3f url(../img/billboard.jpg) no-repeat 0 0;
+  background: #3f3f3f url("../img/billboard.jpg") no-repeat 0 27%;
+  background-size: cover;
   box-shadow: 0 4px 0 #f34949;
 }
 
@@ -172,7 +173,7 @@ img {
   text-align: center;
   color: #ffffff;
 
-  background: url(../img/menu-shape.png) no-repeat 50% 0;
+  background: url("../img/menu-shape.svg") no-repeat 50% 0;
 }
 
 .menu__list {
@@ -237,8 +238,7 @@ img {
 
   display: block;
   width: 105px;
-  margin: 0 auto;
-  margin-bottom: 175px;
+  margin: 0 auto 175px;
   padding: 7px 15px;
 
   font-weight: 400;
@@ -247,6 +247,8 @@ img {
   color: #b7b7b7;
 
   border: 1px solid #d7d5d5;
+
+  transition: transform 0.4s ease-in-out;
 }
 
 .menu__button:hover,
@@ -254,6 +256,8 @@ img {
   color: #f34949;
 
   border: 1px solid #f34949;
+
+  transform: scale(1.1);
 }
 
 .menu__button::before {
@@ -295,9 +299,12 @@ img {
 }
 
 .dishes {
+  position: relative;
+
   width: 1100px;
-  margin: 0 auto;
-  margin-bottom: 200px;
+  margin: 0 auto 200px;
+  padding: 0 17px;
+  overflow: hidden;
 }
 
 .dishes__link {
@@ -332,23 +339,12 @@ img {
   background-color: #e3e1e1;
 }
 
-.dishes__title::before {
-  content: "";
-  position: absolute;
-  top: 40%;
-  right: 0;
-
-  width: 70px;
-  height: 10px;
-
-  background: url(../img/resto-dishes-nav.png) no-repeat 0 0;
-  cursor: pointer;
-}
-
 .dishes__list {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  width: 1970px;
+  height: 270px;
   margin: 0;
   padding: 0;
 
@@ -360,14 +356,23 @@ img {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 230px;
+  margin: 0;
 
   color: #555555;
+
+  transition: transform 0.8s ease;
 }
 
 .dishes__image {
   display: block;
   width: 100%;
   margin-bottom: 25px;
+
+  transition: transform 0.5s ease-in-out;
+}
+
+.dishes__image:hover {
+  transform: scale(1.15);
 }
 
 .dishes__item span {
@@ -383,14 +388,58 @@ img {
   width: 80px;
   height: 13px;
 
-  background: url(../img/resto-dishes-stars.png) no-repeat 0 0;
+  background: url("../img/resto-dishes-stars.png") no-repeat 0 0;
   cursor: pointer;
 }
 
+.slider__controls {
+  position: absolute;
+  top: 23px;
+  right: 20px;
+
+  font-size: 0;
+}
+
+.slider__controls label {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-left: 10px;
+
+  vertical-align: top;
+
+  background-color: #dedede;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#btn-1:checked ~ .slider__controls .slider__btn-1,
+#btn-2:checked ~ .slider__controls .slider__btn-2,
+#btn-3:checked ~ .slider__controls .slider__btn-3,
+#btn-4:checked ~ .slider__controls .slider__btn-4 {
+  background-color: #9b9b9b;
+}
+
+#btn-1:checked ~ .slider__list .slider__item {
+  transform: translateX(0);
+}
+
+#btn-2:checked ~ .slider__list .slider__item {
+  transform: translateX(-290px);
+}
+
+#btn-3:checked ~ .slider__list .slider__item {
+  transform: translateX(-580px);
+}
+
+#btn-4:checked ~ .slider__list .slider__item {
+  transform: translateX(-870px);
+}
+
+
 .gallery {
   width: 1100px;
-  margin: 0 auto;
-  margin-bottom: 200px;
+  margin: 0 auto 200px;
 }
 
 .gallery__link {
@@ -444,8 +493,7 @@ img {
 .page-inner__title {
   max-width: 1500px;
   height: 75px;
-  margin: 0 auto;
-  margin-bottom: 40px;
+  margin: 0 auto 40px;
 
   font-weight: 700;
   font-size: 20px;
@@ -453,7 +501,7 @@ img {
   text-align: center;
   color: #ffffff;
 
-  background: url(../img/menu-shape.png) no-repeat 50% 0;
+  background: url("../img/menu-shape.png") no-repeat 50% 0;
   border-top: 4px solid #f34949;
 }
 

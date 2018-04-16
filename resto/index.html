@@ -85,24 +85,48 @@
         <a class="dishes__link" href="#">
           <h2 class="dishes__title">Featured Dishes</h2>
         </a>
-        <ul class="dishes__list">
-          <li class="dishes__item">
-            <img class="dishes__image" src="img/dish-1.jpg" width="230" height="200" alt="Fugiat nulla sint">
-            <a class="dishes__link" href="#">Fugiat nulla sint</a><span>$30</span>
-          </li>
-          <li class="dishes__item">
-            <img class="dishes__image" src="img/dish-2.jpg" width="230" height="200" alt="Daute irure dolor">
-            <a class="dishes__link" href="#">Daute irure dolor</a><span>$24</span>
-          </li>
-          <li class="dishes__item">
-            <img class="dishes__image" src="img/dish-3.jpg" width="230" height="200" alt="Officia deserunt mollit">
-            <a class="dishes__link" href="#">Officia deserunt mollit</a><span>$60</span>
-          </li>
-          <li class="dishes__item">
-            <img class="dishes__image" src="img/dish-4.jpg" width="230" height="200" alt="Pim minim veniam">
-            <a class="dishes__link" href="#">Pim minim veniam</a><span>$17</span>
-          </li>
-        </ul>
+        <div class="dishes__slider slider">
+          <input class="visually-hidden" type="radio" id="btn-1" name="toggle" checked>
+          <input class="visually-hidden" type="radio" id="btn-2" name="toggle">
+          <input class="visually-hidden" type="radio" id="btn-3" name="toggle">
+          <input class="visually-hidden" type="radio" id="btn-4" name="toggle">
+          <div class="slider__controls">
+            <label class="slider__btn-1" for="btn-1"></label>
+            <label class="slider__btn-2" for="btn-2"></label>
+            <label class="slider__btn-3" for="btn-3"></label>
+            <label class="slider__btn-4" for="btn-4"></label>
+          </div>
+          <ul class="dishes__list slider__list">
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-1.jpg" width="230" height="200" alt="Fugiat nulla sint">
+              <a class="dishes__link" href="#">Fugiat nulla sint</a><span>$30</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-2.jpg" width="230" height="200" alt="Daute irure dolor">
+              <a class="dishes__link" href="#">Daute irure dolor</a><span>$24</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-3.jpg" width="230" height="200" alt="Officia deserunt mollit">
+              <a class="dishes__link" href="#">Officia deserunt mollit</a><span>$60</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-4.jpg" width="230" height="200" alt="Pim minim veniam">
+              <a class="dishes__link" href="#">Pim minim veniam</a><span>$17</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-5.jpg" width="230" height="200" alt="Quam semper libero">
+              <a class="dishes__link" href="#">Quam semper libero</a><span>$27</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-6.jpg" width="230" height="200" alt="Metus varius laoreet">
+              <a class="dishes__link" href="#">Metus varius laoreet</a><span>$30</span>
+            </li>
+            <li class="dishes__item slider__item">
+              <img class="dishes__image" src="img/dish-7.jpg" width="230" height="200" alt="Nam eget dui Etiam">
+              <a class="dishes__link" href="#">Nam eget dui Etiam</a><span>$45</span>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="gallery">
