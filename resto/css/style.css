@@ -467,20 +467,19 @@ img {
 
   font-size: 0;
 
-  background: url("../img/rating-star-fill.svg") no-repeat center;
+  background: url("../img/rating-star-fill.svg") no-repeat 0 0;
   cursor: pointer;
 }
 
 .dishes__rating label:hover ~ label,
 .dishes__rating:not(:hover) input:invalid + label,
 .dishes__rating:not(:hover) input:checked + label ~ label {
-  background: url("../img/rating-star.svg") no-repeat center / contain,
-  url("../img/rating-star-fill.svg") no-repeat center / 0 0;
+  background: url("../img/rating-star.svg") no-repeat 0 0;
 }
 
 .dishes__rating input + label:hover,
 .dishes__rating:not(:hover) input:focus + label {
-  background: url("../img/rating-star-fill.svg") no-repeat center;
+  background: url("../img/rating-star-fill.svg") no-repeat 0 0;
 }
 
 .slider__controls {
