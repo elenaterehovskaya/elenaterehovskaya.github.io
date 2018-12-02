@@ -1,6 +1,8 @@
 # Елена Тереховская
 
 ### Проект [«Арбитраж»](https://github.com/elenaterehovskaya/arbitrage "repository")
+#### Главная страница: <a href="https://elenaterehovskaya.github.io/arbitrage" target="_blank">https://elenaterehovskaya.github.io/arbitrage</a>
+
 
 Полезная рассылка HTML Academy. Макеты для тренировки
 
