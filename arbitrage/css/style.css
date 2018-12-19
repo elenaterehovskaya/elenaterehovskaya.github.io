@@ -589,11 +589,12 @@ img {
   .course::after {
     content: "";
     position: absolute;
-    top: 150px;
+    top: 195px;
     left: 50%;
     width: 390px;
     height: 374px;
     background: url("../img/bg-screens-mobile@1x.png") no-repeat 0 0;
+    background-size: 390px 374px;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); }
     @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
@@ -608,6 +609,7 @@ img {
         width: 537px;
         height: 514px;
         background-image: url("../img/bg-screens-tablet@1x.png");
+        background-size: 537px 514px;
         -webkit-transform: translateX(-50px);
                 transform: translateX(-50px); } }
     @media (min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi), (min-width: 750px) and (min-resolution: 1.5dppx) {
@@ -621,6 +623,7 @@ img {
         width: 895px;
         height: 856px;
         background-image: url("../img/bg-screens-desktop@1x.png");
+        background-size: 895px 856px;
         -webkit-transform: translateX(-120px);
                 transform: translateX(-120px); } }
     @media (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1170px) and (min-resolution: 144dpi), (min-width: 1170px) and (min-resolution: 1.5dppx) {
@@ -979,7 +982,7 @@ img {
     color: rgba(255, 255, 255, 0.1); }
   .promo__number:first-child {
     color: rgba(255, 255, 255, 0.11);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.11); }
+    border-bottom: 2px solid rgba(255, 255, 255, 0.11); }
   @media (min-width: 750px) {
     .promo__number {
       font-size: 60px; }
