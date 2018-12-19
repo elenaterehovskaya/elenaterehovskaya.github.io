@@ -342,11 +342,9 @@ img {
   @media (min-width: 750px) {
     .about-author {
       width: 580px;
-      padding-top: 45px;
+      padding-top: 42px;
       padding-left: 155px;
-      padding-right: 15px;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; } }
+      padding-right: 15px; } }
   @media (min-width: 1170px) {
     .about-author {
       width: 734px;
@@ -474,12 +472,11 @@ img {
   @media (min-width: 750px) {
     .advantages {
       width: 720px;
-      padding-bottom: 70px;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; } }
+      padding-bottom: 70px; } }
   @media (min-width: 1170px) {
     .advantages {
       width: 1140px;
+      margin-top: -45px;
       overflow-x: hidden; } }
 
 .advantages__list {
@@ -527,7 +524,7 @@ img {
     .advantages__item {
       width: 220px;
       margin: 0;
-      padding-top: 90px;
+      padding-top: 100px;
       text-align: left; }
       .advantages__item::before {
         left: 0;
@@ -579,64 +576,84 @@ img {
       background-color: rgba(255, 255, 255, 0.1); } }
   @media (min-width: 1170px) {
     .advantages__title {
-      margin-bottom: 0; } }
+      margin-bottom: 5px; } }
 
 .advantages__text {
   font-weight: 300;
   color: #bdbdbd; }
 
 .course {
-  background: url("../img/bg-screens-mobile@1x.png") no-repeat 50% 130px; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
-    .course {
-      background-image: url("../img/bg-screens-mobile@2x.png"); } }
+  position: relative;
+  padding-top: 34px;
+  overflow: hidden; }
+  .course::after {
+    content: "";
+    position: absolute;
+    top: 150px;
+    left: 50%;
+    width: 390px;
+    height: 374px;
+    background: url("../img/bg-screens-mobile@1x.png") no-repeat 0 0;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%); }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+      .course::after {
+        background-image: url("../img/bg-screens-mobile@2x.png"); } }
   @media (min-width: 750px) {
     .course {
-      background: none; } }
+      padding-top: 64px;
+      padding-bottom: 104px; }
+      .course::after {
+        top: 32px;
+        width: 537px;
+        height: 514px;
+        background-image: url("../img/bg-screens-tablet@1x.png");
+        -webkit-transform: translateX(-50px);
+                transform: translateX(-50px); } }
+    @media (min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi), (min-width: 750px) and (min-resolution: 1.5dppx) {
+      .course::after {
+        background-image: url("../img/bg-screens-tablet@2x.png"); } }
+  @media (min-width: 1170px) {
+    .course {
+      padding-bottom: 260px; }
+      .course::after {
+        top: -85px;
+        width: 895px;
+        height: 856px;
+        background-image: url("../img/bg-screens-desktop@1x.png");
+        -webkit-transform: translateX(-120px);
+                transform: translateX(-120px); } }
+    @media (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1170px) and (min-resolution: 144dpi), (min-width: 1170px) and (min-resolution: 1.5dppx) {
+      .course::after {
+        background-image: url("../img/bg-screens-desktop@2x.png"); } }
 
 .course__wrapper {
   position: relative;
   width: 290px;
   margin: 0 auto;
   padding: 0 15px;
-  padding-top: 30px;
   text-align: center; }
   @media (min-width: 750px) {
     .course__wrapper {
-      position: relative;
       width: 720px;
-      padding-top: 70px;
-      padding-bottom: 110px;
-      text-align: left;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; }
-      .course__wrapper::after {
-        content: "";
-        position: absolute;
-        top: -60px;
-        left: 320px;
-        z-index: -1;
-        width: 537px;
-        height: 514px;
-        background: url("../img/bg-screens-tablet@1x.png") no-repeat 0 0; } }
-    @media (min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi), (min-width: 750px) and (min-resolution: 1.5dppx) {
-      .course__wrapper::after {
-        background-image: url("../img/bg-screens-tablet@2x.png"); } }
+      text-align: left; } }
   @media (min-width: 1170px) {
     .course__wrapper {
-      width: 1140px;
-      padding-top: 85px;
-      padding-bottom: 218px; }
-      .course__wrapper::after {
-        top: -180px;
-        left: 465px;
-        width: 895px;
-        height: 856px;
-        background: url("../img/bg-screens-desktop@1x.png") no-repeat 0 0;
-        background-size: 895px 856px; } }
-    @media (min-width: 1170px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 1170px) and (min-resolution: 144dpi), (min-width: 1170px) and (min-resolution: 1.5dppx) {
-      .course__wrapper::after {
-        background-image: url("../img/bg-screens-desktop@2x.png"); } }
+      width: 1140px; } }
+
+.course__header {
+  margin-bottom: 30px; }
+  @media (min-width: 750px) {
+    .course__header {
+      margin-bottom: 67px; } }
+  @media (min-width: 1170px) {
+    .course__header {
+      margin-bottom: 80px; } }
+
+.course__logo {
+  display: block;
+  width: 109px;
+  height: 30px; }
 
 .course__title {
   position: relative;
@@ -718,14 +735,14 @@ img {
     .course__picture {
       position: absolute;
       z-index: 1;
-      top: 50px;
+      top: 80px;
       right: -40px;
       width: 338px;
       height: 332px; } }
   @media (min-width: 1170px) {
     .course__picture {
-      top: 0;
-      right: -70px;
+      top: 20px;
+      right: -75px;
       width: 563px;
       height: 553px; } }
 
@@ -738,7 +755,7 @@ img {
   @media (min-width: 1170px) {
     .course__form {
       width: 570px;
-      margin-top: 60px; } }
+      margin-top: 65px; } }
 
 @media (min-width: 750px) {
   .form {
@@ -834,26 +851,6 @@ img {
       width: 1140px;
       letter-spacing: 0.7px; } }
 
-.page-header {
-  width: 290px;
-  margin: 0 auto;
-  padding: 0 15px;
-  padding-top: 34px; }
-  @media (min-width: 750px) {
-    .page-header {
-      width: 720px;
-      padding-top: 62px;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; } }
-  @media (min-width: 1170px) {
-    .page-header {
-      width: 1140px; } }
-
-.page-header__logo {
-  display: block;
-  width: 109px;
-  height: 30px; }
-
 .promo {
   padding-top: 83px;
   padding-bottom: 80px;
@@ -868,12 +865,10 @@ img {
       width: 720px;
       margin: 0 auto;
       padding: 0 15px;
-      padding-top: 75px;
-      padding-bottom: 170px;
+      padding-top: 70px;
+      padding-bottom: 175px;
       background: url("../img/bg-promo-tablet@1x.png") no-repeat 50% 10px;
-      background-size: 716px 653px;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; } }
+      background-size: 716px 653px; } }
   @media (min-width: 750px) and (-webkit-min-device-pixel-ratio: 1.5), (min-width: 750px) and (min-resolution: 144dpi), (min-width: 750px) and (min-resolution: 1.5dppx) {
     .promo {
       background-image: url("../img/bg-promo-tablet@2x.png"); } }
@@ -926,7 +921,7 @@ img {
   @media (min-width: 750px) {
     .promo__info {
       width: auto;
-      margin-bottom: 55px; } }
+      margin-bottom: 60px; } }
   @media (min-width: 1170px) {
     .promo__info {
       margin-bottom: 75px;
@@ -1006,9 +1001,7 @@ img {
   margin-top: 23px; }
   @media (min-width: 750px) {
     .promo__form {
-      width: 570px; } }
-  @media (min-width: 1170px) {
-    .promo__form {
+      width: 570px;
       margin-top: 15px; } }
 
 @media (min-width: 1170px) {
@@ -1035,13 +1028,11 @@ img {
   @media (min-width: 750px) {
     .results__wrapper {
       width: 720px;
-      padding-top: 150px;
-      -webkit-box-shadow: inset 0 0 0 1px red;
-              box-shadow: inset 0 0 0 1px red; } }
+      padding-top: 150px; } }
   @media (min-width: 1170px) {
     .results__wrapper {
       width: 1140px;
-      padding-top: 175px;
+      padding-top: 170px;
       padding-bottom: 155px; } }
 
 .results__title {
