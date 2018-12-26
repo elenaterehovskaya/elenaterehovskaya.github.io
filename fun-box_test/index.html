@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>FunBox: test</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main class="page-main">
+      <h1 class="visually-hidden">Каталог кормов для кошек</h1>
+
+      <section class="catalog">
+        <h2 class="catalog__title">Ты сегодня покормил&#160;кота?</h2>
+        <ul class="catalog__list">
+          <!-- "product" — класс товара; "product--selected" — товар выбран; "product--disabled" — товара нет в наличии -->
+          <li class="product catalog__item">
+            <!-- "product__card" — класс упаковки товара, клик по которой выбирает товар или отменяет выбор -->
+            <div class="product__card" tabindex="0" role="button" aria-label="Выбрать товар или отменить свой выбор">
+              <p class="product__text product__text--default">Сказочное заморское яство</p>
+              <p class="product__text product__text--select">Котэ не одобряет?</p>
+              <h3 class="product__title">Нямушка <span>с фуа-гра</span></h3>
+              <p class="product__subtitle"><b>10</b> порций<br> мышь в подарок</p>
+              <picture class="product__photo">
+                <source type="image/webp" srcset="img/kot_preview@1x.webp 1x, img/kot_preview@2x.webp 2x">
+                <img src="img/kot_preview@1x.png" srcset="img/kot_preview@2x.png 2x" width="312" height="270" alt="Фото кота">
+              </picture>
+              <p class="product__weight">0,5 <span>кг</span></p>
+            </div>
+            <p class="product__info product__info--default">Чего сидишь? Порадуй котэ,
+              <!-- "product__button" — класс для кнопки, клик по которой выбирает товар -->
+              <button class="product__button" type="button">купи.</button>
+            </p>
+            <p class="product__info product__info--selected">Печень утки разварная с артишоками.</p>
+            <p class="product__info product__info--disabled">Печалька, с фуа-гра закончился.</p>
+          </li>
+
+          <!-- "product" — класс товара; "product--selected" — товар выбран; "product--disabled" — товара нет в наличии -->
+          <li class="product catalog__item">
+            <!-- "product__card" — класс упаковки товара, клик по которой выбирает товар или отменяет выбор -->
+            <div class="product__card" tabindex="0" role="button" aria-label="Выбрать товар или отменить свой выбор">
+              <p class="product__text product__text--default">Сказочное заморское яство</p>
+              <p class="product__text product__text--select">Котэ не одобряет?</p>
+              <h3 class="product__title">Нямушка <span>с рыбой</span></h3>
+              <p class="product__subtitle"><b>40</b> порций<br> <b>2</b> мыши в подарок</p>
+              <picture class="product__photo">
+                <source type="image/webp" srcset="img/kot_preview@1x.webp 1x, img/kot_preview@2x.webp 2x">
+                <img src="img/kot_preview@1x.png" srcset="img/kot_preview@2x.png 2x" width="312" height="270" alt="Фото кота">
+              </picture>
+              <p class="product__weight">2 <span>кг</span></p>
+            </div>
+            <p class="product__info product__info--default">Чего сидишь? Порадуй котэ,
+              <!-- "product__button" — класс для кнопки, клик по которой выбирает товар -->
+              <button class="product__button" type="button">купи.</button>
+            </p>
+            <p class="product__info product__info--selected">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
+            <p class="product__info product__info--disabled">Печалька, с рыбой закончился.</p>
+          </li>
+
+          <!-- "product" — класс товара; "product--selected" — товар выбран; "product--disabled" — товара нет в наличии -->
+          <li class="product product--disabled catalog__item">
+            <!-- "product__card" — класс упаковки товара, клик по которой выбирает товар или отменяет выбор -->
+            <div class="product__card" tabindex="0" role="button" aria-label="Выбрать товар или отменить свой выбор">
+              <p class="product__text product__text--default">Сказочное заморское яство</p>
+              <p class="product__text product__text--select">Котэ не одобряет?</p>
+              <h3 class="product__title">Нямушка <span>с курой</span></h3>
+              <p class="product__subtitle"><b>100</b> порций<br> <b>5</b> мышей в подарок<br> заказчик доволен</p>
+              <picture class="product__photo">
+                <source type="image/webp" srcset="img/kot_preview@1x.webp 1x, img/kot_preview@2x.webp 2x">
+                <img src="img/kot_preview@1x.png" srcset="img/kot_preview@2x.png 2x" width="312" height="270" alt="Фото кота">
+              </picture>
+              <p class="product__weight">5 <span>кг</span></p>
+            </div>
+            <p class="product__info product__info--default">Чего сидишь? Порадуй котэ,
+              <!-- "product__button" — класс для кнопки, клик по которой выбирает товар -->
+              <button class="product__button" type="button">купи.</button>
+            </p>
+            <p class="product__info product__info--selected">Филе из цыплят с трюфелями в бульоне.</p>
+            <p class="product__info product__info--disabled">Печалька, с курой закончился.</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="js/script.min.js"></script>
+
+  </body>
+</html>
