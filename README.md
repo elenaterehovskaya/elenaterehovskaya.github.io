@@ -1,41 +1,49 @@
 # Елена Тереховская
 
-### Проект [«Арбитраж»](https://github.com/elenaterehovskaya/arbitrage "repository")
+### Проект «Арбитраж»
 #### Главная страница: <a href="https://elenaterehovskaya.github.io/arbitrage" target="_blank">https://elenaterehovskaya.github.io/arbitrage</a>
 
 
-Полезная рассылка HTML Academy. Макеты для тренировки
+[repository](https://github.com/elenaterehovskaya/arbitrage) (Полезная рассылка HTML Academy. Макеты для тренировки)
 
 ---
 
-### Проект [«Пинк»](https://github.com/elenaterehovskaya/524673-pink "repository")
+### Проект «Пинк»
 #### Главная страница: <a href="https://elenaterehovskaya.github.io/pink" target="_blank">https://elenaterehovskaya.github.io/pink</a>
 #### страница с фотографиями пользователей: <a href="https://elenaterehovskaya.github.io/pink/photo.html" target="_blank">https://elenaterehovskaya.github.io/pink/photo.html</a>
 #### страница с формой: <a href="https://elenaterehovskaya.github.io/pink/form.html" target="_blank">https://elenaterehovskaya.github.io/pink/form.html</a>
 
-HTML Academy. Курс «HTML и CSS, уровень 2, поток 15»
+[repository](https://github.com/elenaterehovskaya/524673-pink) (HTML Academy. Курс «HTML и CSS, уровень 2, поток 15»)
 
 ---
 
-### Проект [«Глейси»](https://github.com/elenaterehovskaya/524673-gllacy "repository")
+### Тестовое задание для FunBox
+#### Главная страница: <a href="https://elenaterehovskaya.github.io/fun-box_test" target="_blank">https://elenaterehovskaya.github.io/fun-box_test</a>
+
+
+[repository](https://github.com/elenaterehovskaya/fun-box_test)
+
+---
+
+### Проект «Глейси»
 #### Главная страница: <a href="https://elenaterehovskaya.github.io/gllacy" target="_blank">https://elenaterehovskaya.github.io/gllacy</a>
 #### страница «Магазина»: <a href="https://elenaterehovskaya.github.io/gllacy/catalog.html" target="_blank">https://elenaterehovskaya.github.io/gllacy/catalog.html</a>
 
-HTML Academy. Курс «HTML и CSS, уровень 1, поток 20»
+[repository](https://github.com/elenaterehovskaya/524673-gllacy) (HTML Academy. Курс «HTML и CSS, уровень 1, поток 20»)
 
 ---
 
-### Проект [«Resto»](https://github.com/elenaterehovskaya/resto "repository")
+### Проект «Resto»
 #### Главная страница для ресторана: <a href="https://elenaterehovskaya.github.io/resto" target="_blank">https://elenaterehovskaya.github.io/resto</a>
 
-Полезная рассылка HTML Academy. Макеты для тренировки
+[repository](https://github.com/elenaterehovskaya/resto) (Полезная рассылка HTML Academy. Макеты для тренировки)
 
 ---
 
-### Проект [«Нёрдс»](https://github.com/elenaterehovskaya/524673-nerds "repository")
+### Проект «Нёрдс»
 #### Главная страница: <a href="https://elenaterehovskaya.github.io/nerds" target="_blank">https://elenaterehovskaya.github.io/nerds</a>
 #### страница «Магазина готовых шаблонов»: <a href="https://elenaterehovskaya.github.io/nerds/catalog.html" target="_blank">https://elenaterehovskaya.github.io/nerds/catalog.html</a>
 
-HTML Academy. Курс «Базовый HTML и CSS #19»
+[repository](https://github.com/elenaterehovskaya/524673-nerds) (HTML Academy. Курс «Базовый HTML и CSS #19»)
 
 ---
