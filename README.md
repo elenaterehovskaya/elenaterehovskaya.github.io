@@ -1,10 +1,18 @@
 # Елена Тереховская
 
 ### Проект «Арбитраж»
-#### Главная страница: <a href="https://elenaterehovskaya.github.io/arbitrage" target="_blank">https://elenaterehovskaya.github.io/arbitrage</a>
+#### Лендинг: <a href="https://elenaterehovskaya.github.io/arbitrage" target="_blank">https://elenaterehovskaya.github.io/arbitrage</a>
 
 
-[repository](https://github.com/elenaterehovskaya/arbitrage) (Полезная рассылка HTML Academy. Макеты для тренировки)
+[repository](https://github.com/elenaterehovskaya/arbitrage)
+
+---
+
+### Тестовое задание для FunBox
+#### Главная страница: <a href="https://elenaterehovskaya.github.io/fun-box_test" target="_blank">https://elenaterehovskaya.github.io/fun-box_test</a>
+
+
+[repository](https://github.com/elenaterehovskaya/fun-box_test)
 
 ---
 
@@ -14,14 +22,6 @@
 #### страница с формой: <a href="https://elenaterehovskaya.github.io/pink/form.html" target="_blank">https://elenaterehovskaya.github.io/pink/form.html</a>
 
 [repository](https://github.com/elenaterehovskaya/524673-pink) (HTML Academy. Курс «HTML и CSS, уровень 2, поток 15»)
-
----
-
-### Тестовое задание для FunBox
-#### Главная страница: <a href="https://elenaterehovskaya.github.io/fun-box_test" target="_blank">https://elenaterehovskaya.github.io/fun-box_test</a>
-
-
-[repository](https://github.com/elenaterehovskaya/fun-box_test)
 
 ---
 
@@ -36,7 +36,7 @@
 ### Проект «Resto»
 #### Главная страница для ресторана: <a href="https://elenaterehovskaya.github.io/resto" target="_blank">https://elenaterehovskaya.github.io/resto</a>
 
-[repository](https://github.com/elenaterehovskaya/resto) (Полезная рассылка HTML Academy. Макеты для тренировки)
+[repository](https://github.com/elenaterehovskaya/resto)
 
 ---
 
